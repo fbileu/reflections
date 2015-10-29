@@ -16,3 +16,6 @@ How do the diagrams help you visualize the branch structure?
 Helps to see which commits belong to which branch and what kind of commits were added to each branch.
 Also helps to understand reachability for the various commits.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The commits are merged in one branch ordered by commit time. The diagram helps understand from where the commits come from.
+
