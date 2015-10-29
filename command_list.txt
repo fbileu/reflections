@@ -14,4 +14,5 @@ git reset --hard >-> Clears the changes in the working directory. No rollback fr
 git branch >-> Lists existing branches
 git branch <new_Branch_name> >-> Creates a branch with the given name
 git checkout <Branch_name> >-> Selects the branch with the given name ( going to the latest/last checked out commit of the branch)
-git log --graph --oneline >-> Lists all commits with only one line and only part of the id and commit description
+git log --graph --oneline <branch_1> <branch_2> >-> Lists all commits with only one line and only part of the id and commit description and optionally on mentioned branches
+
