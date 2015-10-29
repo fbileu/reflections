@@ -2,7 +2,16 @@ q >-> exits the commit list
 git log >-> Lists all commits
 git log --stat >-> Lists all commits with information of which files were changed on the commits
 git diff <commit_id_1> <commit_id_2> >-> Lists the changes between the two commits 
+git checkout <commit_id> >-> Checks out the commit with the given id in order to be able to "be used as if it was the current version"
 
 git init >-> create a git repository on the current directory
 git status >-> shows the status of the repository, including which files changed in the last commit
 git add <file1> >-> adds the file1 to the staging area to be committed
+git commit >-> create a commit with the files in the staging area
+git diff  >-> Lists the changes between the Working Directory and the Staging Area
+git diff --staged >-> Lists the changes between the Staging Area and the latest commit
+git reset --hard >-> Clears the changes in the working directory. No rollback from this is possible.
+git branch >-> Lists existing branches
+git branch <new_Branch_name> >-> Creates a branch with the given name
+git checkout <Branch_name> >-> Selects the branch with the given name ( going to the latest/last checked out commit of the branch)
+git log --graph --oneline >-> Lists all commits with only one line and only part of the id and commit description
