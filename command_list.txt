@@ -1,0 +1,8 @@
+q >-> exits the commit list
+git log >-> Lists all commits
+git log --stat >-> Lists all commits with information of which files were changed on the commits
+git diff <commit_id_1> <commit_id_2> >-> Lists the changes between the two commits 
+
+git init >-> create a git repository on the current directory
+git status >-> shows the status of the repository, including which files changed in the last commit
+git add <file1> >-> adds the file1 to the staging area to be committed
