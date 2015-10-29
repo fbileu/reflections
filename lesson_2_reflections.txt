@@ -11,3 +11,8 @@ By adding only the files with a logical change to the staging area and commiting
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 It would be helpfull in order to compare different development paths for the history such as experimental features
+
+How do the diagrams help you visualize the branch structure?
+Helps to see which commits belong to which branch and what kind of commits were added to each branch.
+Also helps to understand reachability for the various commits.
+
