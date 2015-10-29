@@ -5,3 +5,6 @@ How is the staging area different from the working directory and the repository?
 The staging area is a temporary and virtual space where you can set up what you'll add to the repository.
 It offers a space where you can set up which files will be committed while allowing the possibility to have 
 more files in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By adding only the files with a logical change to the staging area and commiting them.
