@@ -17,3 +17,6 @@ git checkout <Branch_name> >-> Selects the branch with the given name ( going to
 git branch -b <new_Branch_name> >-> Creates a branch with the given name and checks it out
 git log --graph --oneline <branch_1> <branch_2> >-> Lists all commits with only one line and only part of the id and commit description and optionally on mentioned branches
 git gc >-> Calls Git Garbage Collection manually to clear unreachable commits
+git merge <branch_1> <branch_2> >-> Merge branch_1 and branch_2
+git show <commit_id> >-> Shows changes introduced with the mentioned commit.
+git branch -d <branch_name> >-> Delete mentioned branch label ( doesn't delete it's commits)
