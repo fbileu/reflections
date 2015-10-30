@@ -12,3 +12,6 @@ to your github. Branch when you want to create a new branch of commits without c
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 In case you need to access it later on from a different machine, it would be already updated.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+By e-mail or someting. It would be harder to sync however I don't know how it could be easier.
