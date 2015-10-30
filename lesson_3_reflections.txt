@@ -4,3 +4,8 @@ Mostly all of the time. It's beneficial in many ways, like when you need to wwor
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because we might have unpushed commits on the same branch.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Clone is a kind of copy of a repository. Fork is a kind of clone on GitHub. A branch is a list of commits.
+Use a clone when you want to copy a remote repository to a local machine. Fork when you want to clone a repository from github 
+to your github. Branch when you want to create a new branch of commits without changing the path that the master branch follows.
