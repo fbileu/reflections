@@ -27,3 +27,4 @@ git remote -v >-> Lists the remotes currently configured in a verbose mode
 git remote add <name> <url_of_repository> >-> Configures a new remote with a given name to the given url
 git push <remote_name> <branch_to_push> >-> Push named branch to the given remote name
 git pull <remote_name> <branch_to_pull> >-> Pull named branch from the given remote name
+git fetch >-> Fetch remote commits from current branch.
