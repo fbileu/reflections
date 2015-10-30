@@ -19,3 +19,7 @@ Also helps to understand reachability for the various commits.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The commits are merged in one branch ordered by commit time. The diagram helps understand from where the commits come from.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Easier to perform a merged
+Cons: Some commits may not be merged easily
+
