@@ -20,3 +20,4 @@ git gc >-> Calls Git Garbage Collection manually to clear unreachable commits
 git merge <branch_1> <branch_2> >-> Merge branch_1 and branch_2
 git show <commit_id> >-> Shows changes introduced with the mentioned commit.
 git branch -d <branch_name> >-> Delete mentioned branch label ( doesn't delete it's commits)
+git log -n <X> >-> Lists the last <X> commits with information of which files were changed on the commits
