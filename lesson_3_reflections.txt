@@ -15,3 +15,7 @@ In case you need to access it later on from a different machine, it would be alr
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 By e-mail or someting. It would be harder to sync however I don't know how it could be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+In this way, I could request a revision by creating a pull request. With a pull request, other contributors could review my contribution
+before merging with the master branch. 
