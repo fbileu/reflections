@@ -21,3 +21,7 @@ git merge <branch_1> <branch_2> >-> Merge branch_1 and branch_2
 git show <commit_id> >-> Shows changes introduced with the mentioned commit.
 git branch -d <branch_name> >-> Delete mentioned branch label ( doesn't delete it's commits)
 git log -n <X> >-> Lists the last <X> commits with information of which files were changed on the commits
+
+git remote >-> Lists the remotes currently configured
+git remote -v >-> Lists the remotes currently configured in a verbose mode
+git remote add <name> <url_of_repository> >-> Configures a new remote with a given name to the given url
